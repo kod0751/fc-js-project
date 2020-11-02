@@ -45,8 +45,8 @@ async function getBooks(token) {
     });
     return res.data;
   } catch (error) {
-    console.log('getBooks error', error);
-    return null;
+      console.log('getBooks error', error);
+      return null;
   }
 }
 
